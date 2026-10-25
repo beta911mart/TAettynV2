@@ -1,0 +1,6 @@
+{
+  "name": "Teman Akademik Ettyn",
+  "description": "Jasa Pendampingan Akademik, Bimbingan Skripsi, Jurnal Sinta/Scopus & Pembuatan Slide Presentasi Cepat dan Terpercaya bersama Ettyn Muda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

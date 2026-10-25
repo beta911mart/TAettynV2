@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fdf9f3;
+  --color-surface-dim: #dddad4;
+  --color-surface-bright: #fdf9f3;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f7f3ed;
+  --color-surface-container: #f1ede7;
+  --color-surface-container-high: #ebe8e2;
+  --color-surface-container-highest: #e6e2dc;
+  --color-surface-card: rgba(255, 255, 255, 0.85);
+  --color-surface-card-subtle: rgba(255, 255, 255, 0.55);
+  
+  --color-on-surface: #1c1c18;
+  --color-on-surface-variant: #554340;
+  --color-inverse-surface: #31302d;
+  --color-inverse-on-surface: #f4f0ea;
+  
+  --color-primary: #944437;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #b25c4e;
+  --color-on-primary-container: #fffbff;
+  --color-primary-fixed: #ffdad4;
+  --color-primary-fixed-dim: #ffb4a7;
+  --color-on-primary-fixed: #3e0502;
+  
+  --color-secondary: #7c5357;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fdc7cb;
+  --color-on-secondary-container: #795154;
+  --color-secondary-fixed: #ffdadc;
+  --color-secondary-fixed-dim: #eeb9bd;
+  --color-on-secondary-fixed: #301216;
+  
+  --color-tertiary: #814f3b;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #9d6751;
+  --color-tertiary-fixed: #ffdbcd;
+  --color-tertiary-fixed-dim: #f9b79d;
+  --color-on-tertiary-fixed: #341103;
+  
+  --color-text-espresso: #382D26;
+  --color-text-slate-warm: #63534B;
+  --color-text-muted: #8E7D75;
+  
+  --color-status-success: #3D7A5A;
+  --color-status-promo: #C85A54;
+  --color-status-info: #4A6E82;
+  --color-accent-glow: rgba(200, 109, 94, 0.18);
+  
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+}
+
+.font-display-hero {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.font-headline-xl {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
